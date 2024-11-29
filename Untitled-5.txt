@@ -1,0 +1,25 @@
+# input : [(5,6),(5,7),(5,8),(6,7),(6,8),(7,8),(10,11),(10,12)]
+# output : [(5,6,7,8),(6,7,8),(7,8),(10,11,12)]
+
+l = [(5,6),(5,7),(5,8),(6,7),(6,8),(7,8),(10,11),(10,12)]
+l1 = []
+d={}
+for i in l:
+    if type(i) == tuple:
+        c=i[0]
+        if c in d.keys():
+            for j in i:
+                if j not in d[c].items(): #and j != i[0] .iterator() 
+                    d[c].append(j)
+            # d[c].append(i[1])
+        else:
+            #d.setdefault(c,i[1])
+            d.update({c:i[1]})
+            # d[c]=i[1]
+        # l1.append(c)
+    # else:
+        # c=list(i)
+        # c.sort()
+        # l1.append(c)
+
+print(d)

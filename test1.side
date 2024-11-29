@@ -1,0 +1,235 @@
+{
+  "id": "ea870f9c-c937-4d72-9883-2d461b268067",
+  "version": "2.0",
+  "name": "test1",
+  "url": "https://www.toolsvilla.com/category/farm/special-farm-tools",
+  "tests": [{
+    "id": "91ec0070-6599-4f90-ae16-b4fb8ee10067",
+    "name": "01_home",
+    "commands": [{
+      "id": "5f86bcb6-c8a4-4491-9274-98f34951371b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "223e1f95-1aac-4754-a573-f704b1e886b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faf6f6eb-fcc4-4cb7-9fd1-fd802a9a0fbc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=fixed-nav",
+      "targets": [
+        ["id=fixed-nav", "id"],
+        ["css=#fixed-nav", "css:finder"],
+        ["xpath=//mat-toolbar-row[@id='fixed-nav']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/app-pages/mat-sidenav-container/mat-sidenav-content/mat-toolbar/div/mat-toolbar-row", "xpath:idRelative"],
+        ["xpath=//mat-toolbar-row", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e91ea7c-55b1-468f-b9d9-ccf9b2b2728c",
+      "comment": "",
+      "command": "click",
+      "target": "id=schText",
+      "targets": [
+        ["id=schText", "id"],
+        ["name=searchTxt", "name"],
+        ["css=#schText", "css:finder"],
+        ["xpath=//input[@id='schText']", "xpath:attributes"],
+        ["xpath=//mat-toolbar-row[@id='fixed-nav']/div/div/ais-instantsearch/ais-hits/app-autocomplete2/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b256804-aa18-436f-bdac-51bdd64ce96e",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=schText",
+      "targets": [
+        ["id=schText", "id"],
+        ["name=searchTxt", "name"],
+        ["css=#schText", "css:finder"],
+        ["xpath=//input[@id='schText']", "xpath:attributes"],
+        ["xpath=//mat-toolbar-row[@id='fixed-nav']/div/div/ais-instantsearch/ais-hits/app-autocomplete2/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38eed204-b4ea-4936-996a-e9273c8b8f9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative img",
+      "targets": [
+        ["css=.relative img", "css:finder"],
+        ["xpath=//img[@alt='Account Icon']", "xpath:img"],
+        ["xpath=//mat-toolbar-row[@id='fixed-nav']/div/div[3]/div/button/span[2]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/span[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76c28f3d-3cf3-4379-bb24-9fbb56110f14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-overlay-backdrop",
+      "targets": [
+        ["css=.cdk-overlay-backdrop", "css:finder"],
+        ["xpath=//div[@id='app']/div/div", "xpath:idRelative"],
+        ["xpath=//app-root/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94a39c8-2512-4980-8759-44295cef5d80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused img",
+      "targets": [
+        ["css=.cdk-focused img", "css:finder"],
+        ["xpath=//img[@alt='Cart Icon']", "xpath:img"],
+        ["xpath=//mat-toolbar-row[@id='fixed-nav']/div/div[2]/div/button/span[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5605f25d-3f9f-464f-8cf8-fd2e432f8069",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-overlay-backdrop",
+      "targets": [
+        ["css=.cdk-overlay-backdrop", "css:finder"],
+        ["xpath=//div[@id='app']/div/div", "xpath:idRelative"],
+        ["xpath=//app-root/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f6211a2-06ca-4a29-8fc3-fc5f6929cebf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1682)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18a7bb4d-49dd-43f7-97b4-3afb034b84bb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.middle-section",
+      "targets": [
+        ["css=.middle-section", "css:finder"],
+        ["xpath=//div[@id='desk-footer']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e09fcc3e-db1c-4927-afae-92978bce016d",
+    "name": "02_category",
+    "commands": [{
+      "id": "94a19de0-b2c3-4449-9ef0-f8192ab35c11",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.toolsvilla.com/category/farm/special-farm-tools",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16bbd4a9-1fe3-42e2-957e-961e23d2f79c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75009338-4ded-4ec0-a05e-cadbf3c24396",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.breadcrumb > .ng-star-inserted:nth-child(3) > a",
+      "targets": [
+        ["css=.breadcrumb > .ng-star-inserted:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Special Farm Tools')])[2]", "xpath:link"],
+        ["xpath=//div[@id='app']/app-pages/mat-sidenav-container/mat-sidenav-content/div[2]/app-products/mat-sidenav-container/mat-sidenav-content/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/farm/special-farm-tools')])[3]", "xpath:href"],
+        ["xpath=//mat-sidenav-content/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceb24f52-2c50-47a2-a87d-976a13bffc84",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,659)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d8dc765-8eb4-493f-a852-763dd4bd8851",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.disabled:nth-child(2)",
+      "targets": [
+        ["css=.disabled:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/app-pages/mat-sidenav-container/mat-sidenav-content/div[2]/app-products/mat-sidenav-container/mat-sidenav-content/div[4]/div/mat-card/app-pagination/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//app-pagination/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'«Previous')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dd045e2-0e8b-435d-b717-2ba4c2a9e679",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) .swiper-lazy",
+      "targets": [
+        ["css=.col:nth-child(1) .swiper-lazy", "css:finder"],
+        ["xpath=//img[@alt='G.I Steel Heavy Duty Motorized Seed Dressing/Treating Drum']", "xpath:img"],
+        ["xpath=//div[@id='app']/app-pages/mat-sidenav-container/mat-sidenav-content/div[2]/app-products/mat-sidenav-container/mat-sidenav-content/div[3]/div/div/div/mat-card/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8279",
+      "windowTimeout": 2000
+    }, {
+      "id": "f8c70944-f034-4f31-9254-93f8c03a5f84",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8279}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae78cb37-5e55-416e-aa5d-41c31b209f20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.px-3",
+      "targets": [
+        ["css=.px-3", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]", "xpath:idRelative"],
+        ["xpath=//app-product/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8b7bae2-125c-4cce-abdf-8b833fd5cdaa",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.productName",
+      "targets": [
+        ["css=.productName", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'G.I Steel Heavy Duty Motorized Seed Dressing/Treating Drum')]", "xpath:innerText"]
+      ],
+      "value": "a"
+    }]
+  }],
+  "suites": [{
+    "id": "4db8bcff-8c0f-4c22-9ff5-1f5e7edc26d2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["91ec0070-6599-4f90-ae16-b4fb8ee10067"]
+  }],
+  "urls": ["https://www.toolsvilla.com/"],
+  "plugins": []
+}
